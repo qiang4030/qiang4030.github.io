@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>应用hexo-theme-fluid主题（一）</title>
+    <link href="/2020/11/21/%E5%BA%94%E7%94%A8hexo-theme-fluid%E4%B8%BB%E9%A2%98%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <url>/2020/11/21/%E5%BA%94%E7%94%A8hexo-theme-fluid%E4%B8%BB%E9%A2%98%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    
+    <content type="html"><![CDATA[<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h4 id="1-搭建-Hexo-博客"><a href="#1-搭建-Hexo-博客" class="headerlink" title="1. 搭建 Hexo 博客"></a>1. 搭建 Hexo 博客</h4><p>如果你还没有 Hexo 博客，请按照 <a href="https://hexo.io/zh-cn/docs/">Hexo 官方文档</a> 进行安装、建站。</p><h4 id="2-获取主题最新版本"><a href="#2-获取主题最新版本" class="headerlink" title="2. 获取主题最新版本"></a>2. 获取主题最新版本</h4><p><strong>方式一：</strong></p><p>Hexo 5.0.0 版本以上，推荐通过 npm 直接安装，进入博客目录执行命令：</p><pre><code class="hljs sh">npm install --save hexo-theme-fluid</code></pre><p>然后在博客目录下创建 <code>_config.fluid.yml</code>，将主题的 <a href="https://github.com/fluid-dev/hexo-theme-fluid/blob/master/_config.yml">_config.yml</a> 内容复制进去。</p><p><strong>方式二：</strong></p><p>下载 <a href="https://github.com/fluid-dev/hexo-theme-fluid/releases">最新 release 版本</a> 解压到 themes 目录，并将解压出的文件夹重命名为 <code>fluid</code>。</p><h4 id="3-指定主题"><a href="#3-指定主题" class="headerlink" title="3. 指定主题"></a>3. 指定主题</h4><p>如下修改 Hexo 博客目录中的 <code>_config.yml</code>：</p><pre><code class="hljs yaml"><span class="hljs-attr">theme:</span> <span class="hljs-string">fluid</span>  <span class="hljs-comment"># 指定主题</span><span class="hljs-attr">language:</span> <span class="hljs-string">zh-CN</span>  <span class="hljs-comment"># 指定语言，会影响主题显示的语言，按需修改</span></code></pre><h4 id="4-创建「关于页」"><a href="#4-创建「关于页」" class="headerlink" title="4. 创建「关于页」"></a>4. 创建「关于页」</h4><p>首次使用主题的「关于页」需要手动创建：</p><pre><code class="hljs bash">hexo new page about</code></pre><p>创建成功后，编辑博客目录下 <code>/source/about/index.md</code>，添加 <code>layout</code> 属性。</p><p>修改后的文件示例如下：</p><pre><code class="hljs yaml"><span class="hljs-meta">---</span><span class="hljs-attr">title:</span> <span class="hljs-string">about</span><span class="hljs-attr">date:</span> <span class="hljs-number">2020-02-23 19:20:33</span><span class="hljs-attr">layout:</span> <span class="hljs-string">about</span><span class="hljs-meta">---</span><span class="hljs-string">这里写关于页的正文，支持</span> <span class="hljs-string">Markdown,</span> <span class="hljs-string">HTML</span></code></pre><h2 id="更新主题"><a href="#更新主题" class="headerlink" title="更新主题"></a>更新主题</h2><p>更新主题的方式<a href="https://hexo.fluid-dev.com/docs/start/#%E6%9B%B4%E6%96%B0%E4%B8%BB%E9%A2%98">参照这里</a>。</p><h2 id="功能特性"><a href="#功能特性" class="headerlink" title="功能特性"></a>功能特性</h2><ul><li><input checked="" disabled="" type="checkbox"> 图片懒加载</li><li><input checked="" disabled="" type="checkbox"> 自定义代码高亮方案</li><li><input checked="" disabled="" type="checkbox"> 内置多语言</li><li><input checked="" disabled="" type="checkbox"> 支持多款评论插件</li><li><input checked="" disabled="" type="checkbox"> 支持使用<a href="https://hexo.io/zh-cn/docs/data-files">数据文件</a>存放配置</li><li><input checked="" disabled="" type="checkbox"> 自定义静态资源 CDN</li><li><input checked="" disabled="" type="checkbox"> 无比详实的<a href="https://hexo.fluid-dev.com/docs/">用户文档</a></li><li><input checked="" disabled="" type="checkbox"> 内置文章搜索</li><li><input checked="" disabled="" type="checkbox"> 页脚备案信息</li><li><input checked="" disabled="" type="checkbox"> 网页访问统计</li><li><input checked="" disabled="" type="checkbox"> 支持脚注语法</li><li><input checked="" disabled="" type="checkbox"> 支持 LaTeX 数学公式</li><li><input checked="" disabled="" type="checkbox"> 支持 mermaid 流程图</li><li><input checked="" disabled="" type="checkbox"> 暗色模式</li></ul><h2 id="原文参考"><a href="#原文参考" class="headerlink" title="原文参考"></a>原文参考</h2><p><a href="https://github.com/fluid-dev/hexo-theme-fluid">https://github.com/fluid-dev/hexo-theme-fluid</a></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>hexo theme</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>test</title>
     <link href="/2020/11/21/test/"/>
     <url>/2020/11/21/test/</url>
