@@ -9,7 +9,7 @@
         class="cropper"
         :src="image.src"
         :stencil-props="{
-          minAspectRatio: 1,
+          // minAspectRatio: 1,
         }"
         minWidth="120"
         minHeight="120"
